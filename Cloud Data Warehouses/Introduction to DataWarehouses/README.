@@ -1,0 +1,26 @@
+The Business Perspective on Data Warehouses
+
+    First, we covered the reasons why a single relational database often do not meet the needs of business users
+    Then you learned about OLTP: online transactional processing and OLAP: online analytical processing and how OLAP supports business users
+
+The Technical Perspective on Data Warehouses
+
+    In this section, we covered definitions of a Data Warehouse and ETL processes
+
+Dimensional Modeling
+
+    We reviewed how a star schema is more performant, easier for business users to understand, and supports analytical processes
+    You practiced ETL steps from a 3NF database to a Star Schema
+
+DWH Architecture
+
+    In this part of the lesson, we covered several Data Warehouse Architectures
+
+OLAP Cubes
+
+    You learned that the OLAP cube is an aggregation of data on a number of dimensions
+    You practiced slicing, dicing, Roll Up and Drill Down operations with OLAP cubes
+
+DWH Storage Technology
+
+    In the last part of the lesson you learned about Relational Online Analytical Processing (ROLAP) and using columnar storage for performance
