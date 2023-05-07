@@ -53,7 +53,8 @@ To get started with the project:
     The operators folder with operator templates A helper class for the SQL transformations
     With these template files, you should be able see the new DAG in the Airflow UI. The graph view should look like this:
     
-    ![image](https://user-images.githubusercontent.com/44730055/236690692-0e6658f0-ebcf-403d-825d-c57fe47a2afd.png)
+    
+![image](https://user-images.githubusercontent.com/44730055/236690692-0e6658f0-ebcf-403d-825d-c57fe47a2afd.png)
 
  You should be able to execute the DAG successfully, but if you check the logs, you will see only operator not implemented messages.
 Configuring the DAG
@@ -68,6 +69,7 @@ In the DAG, add default parameters according to these guidelines
 
 In addition, configure the task dependencies so that after the dependencies are set, the graph view follows the flow shown in the image below.
 Screenshot of working DAG with correct task dependencies
+
 
 ![image](https://user-images.githubusercontent.com/44730055/236690719-c64cd156-828d-435c-a737-7adfb60bf064.png)
 
@@ -108,6 +110,6 @@ For example one test could be a SQL statement that checks if certain column cont
 We do not want to have any NULLs so expected result would be 0 and the test would compare the SQL statement's outcome to the expected result.
 Note About The Project Workspace:
 
-After you have updated the DAG, you will need to run /opt/airflow/start.sh command to start the Airflow web server. Once the Airflow web server is ready,
-you can access the Airflow UI by clicking on the blue Access Airflow button.
+After you have updated the DAG, you will need to run /opt/airflow/start.sh command to start the Airflow web server. Once the Airflow web server 
+is ready, you can access the Airflow UI by clicking on the blue Access Airflow button.
 
