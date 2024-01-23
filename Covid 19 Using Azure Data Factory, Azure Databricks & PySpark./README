@@ -1,2 +1,25 @@
-Covid 19 Using Azure Data Factory, Azure Databricks & PySpark.
+## Covid 19 Using Azure Data Factory, Azure Databricks, Azure Data Warehousing & PySpark.
+Sep 2023 - Jan 2024Sep 2023 - Jan 2024
+
+Data Lake to be built with the following data to aid:
+Data Scientists to predict the spread of the virus.
+mortality.
+Confirmed cases.
+Mortality.
+Hospitalization/ ICU Cases.
+Testing Numbers.
+Country’s population by age group.
+
+Data Warehouse to be built with the following data:
+to aid Reporting on Trends
+Confirmed cases
+Mortality
+Hospitalization/ ICU Cases
+Testing Numbers
+
+ECDC Website
+Eurostat Website
+Population by age
+
+Skills: Microsoft Azure · Azure Databricks · PySpark · Azure Data Warehousing.
 
