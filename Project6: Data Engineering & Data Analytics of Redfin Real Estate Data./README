@@ -1,1 +1,10 @@
-# Project Data Engineering & Data Analytics of Redfin Real State Data.
+# Project Data Engineering & Data Analytics of Redfin Real State Data:
+Redfin Real Estate Data Analytics python ETL data engineering project using Apache Airflow, Snowpipe, snowflake and AWS services.
+In this Redfin Real Estate Data Analytics python ETL data engineering project, I learn how to connect to the Redfin data center data source to extract real estate data using python after which we will transform the data using pandas and load it into an Amazon S3 bucket. 
+The raw data will also be loaded into an Amazon S3 bucket.
+As soon as the transformed data lands inside the AWS S3 bucket, Snowpipe would be triggered which would automatically run a COPY command to load the transformed data into a snowflake data warehouse table. 
+Then I connected PowerBi to the snowflake data warehouse to then visualize the data to obtain insight.
+Apache airflow would be used to orchestrate and automate this process.
+Apache Airflow is an open-source platform used for orchestrating and scheduling workflows of tasks and data pipelines. 
+I installed the Apache-airflow on our EC2 instance to orchestrate the pipeline.
+
